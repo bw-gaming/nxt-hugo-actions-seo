@@ -1,0 +1,9 @@
+name: Generate seo tags
+author: @bw-gaming
+description: Generates seo tags based on a Hugo generated websites data published via another Action
+branding:
+  icon: link
+  color: blue
+runs:
+  using: docker
+  image: Dockerfile
