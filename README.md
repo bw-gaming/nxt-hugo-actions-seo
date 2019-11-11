@@ -43,7 +43,7 @@ jobs:
 
 | Key | Description | Type | Required |
 |-----|-------------|------|----------|
-| `PUBLISH_DIR` | Directory where the hugo website is generated. _(Defaults to `$GITHUB_WORKSPACE/publish`)_ | `env` | No |
+| `PUBLISH_DIR` | Directory where the hugo website is generated. _(Defaults to `$GITHUB_WORKSPACE/public`)_ | `env` | No |
 
 ## License
 

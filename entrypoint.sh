@@ -8,3 +8,4 @@ if [ -z "$PUBLISH_DIR" ]; then
 fi
 
 
+python seo.py $PUBLISH_DIR

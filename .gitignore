@@ -6,6 +6,7 @@ out.json
 output/
 todo/
 data/
+public/
 # Byte-compiled / optimized / DLL files
 # .vscode/
 # .vscode/*

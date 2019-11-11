@@ -10,7 +10,8 @@ LABEL "homepage"="https://github.com/bw-gaming/bw-actions-hugo-seo"
 LABEL "maintainer"="bw-gaming@github.com"
 
 
-RUN pip install beautifulsoup4==4.8.1
+# RUN pip install beautifulsoup4==4.8.1
+COPY ./seo.py .
 
 COPY ./entrypoint.sh .
 
