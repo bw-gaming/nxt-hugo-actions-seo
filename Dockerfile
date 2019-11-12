@@ -11,7 +11,7 @@ LABEL "maintainer"="bw-gaming@github.com"
 
 
 # RUN pip install beautifulsoup4==4.8.1
-COPY ./seo.py .
+COPY ./main.py .
 
 COPY ./entrypoint.sh .
 

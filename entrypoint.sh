@@ -4,7 +4,7 @@
 set -e
 
 if [ -z "$PUBLISH_DIR" ]; then
-  PUBLISH_DIR="$GITHUB_WORKSPACE/publish"
+  PUBLISH_DIR="$GITHUB_WORKSPACE/public"
 fi
 
 
