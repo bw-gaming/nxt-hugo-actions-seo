@@ -1,6 +1,6 @@
-name: Generate seo tags
+name: seo action helper for hugo generator
 author: @bw-gaming
-description: Generates seo tags based on a Hugo generated websites data published via another Action
+description: Rewrite seo tags based of a Hugo generated websites (with specific template component)
 branding:
   icon: link
   color: blue
