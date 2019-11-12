@@ -29,7 +29,7 @@ jobs:
       run: hugo --gc --minify --cleanDestinationDir -e production
 
     - name: Update seo tags
-      uses: bw-gaming/generate-seo-tags@master
+      uses: bw-gaming/nxt-hugo-actions-seo@master
 
     - name: Publish to Pages
       uses: peaceiris/actions-gh-pages@v1.0.1
